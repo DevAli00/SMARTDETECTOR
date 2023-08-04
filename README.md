@@ -24,7 +24,7 @@ Water leakage in urban water distribution systems is a significant problem leadi
 
 ## Dataset
 
-The dataset used to train and validate the model consists of audio recordings captured from different parts of the water distribution network. It includes both positive samples (audio segments with confirmed leaks) and negative samples (normal functioning audio segments). Due to privacy and sensitivity concerns, the original dataset is not included in this repository. However, instructions on how to obtain a similar dataset for research purposes are provided in the [Your Link Here](https://data.mendeley.com/datasets/tbrnp6vrnj/1) directory.
+The dataset used to train and validate the model consists of audio recordings captured from different parts of the water distribution network. It includes both positive samples (audio segments with confirmed leaks) and negative samples (normal functioning audio segments). The [Dataset](https://data.mendeley.com/datasets/tbrnp6vrnj/1) can be found here.
 
 ## Model Architecture
 
