@@ -14,7 +14,6 @@ This repository contains a deep learning model that can detect water leakage in 
 - [Installation](#installation)
 - [Training](#training)
 - [Evaluation](#evaluation)
-- [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
