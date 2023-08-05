@@ -34,7 +34,7 @@ The deep learning model is based on a deep neural network (DNN) architecture, wh
 
 To use the trained model for water leakage detection, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/yourusername/water-leakage-detection.git`
+1. Clone this repository: `git clone https://github.com/DevAli00/SMARTDETECTOR.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Prepare the audio data for detection (either record new sound or use existing audio files).
 4. Preprocess the audio data to generate spectrograms.
@@ -45,21 +45,18 @@ To use the trained model for water leakage detection, follow these steps:
 
 To set up the development environment for training and evaluation, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/water-leakage-detection.git`
+1. Clone the repository: `git clone https://github.com/DevAli00/SMARTDETECTOR.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
-3. Download the dataset and place it in the [dataset](/dataset) directory.
+3. Download the dataset and place it in the [Dataset](https://data.mendeley.com/datasets/tbrnp6vrnj/1) directory.
 
 ## Training
 
-To train the deep learning model, run the [train.py](/train.py) script. You can customize the training parameters, such as batch size, learning rate, and number of epochs, by modifying the script.
+To train the deep learning model, run the [train.py](/model.py) script. You can customize the training parameters, such as batch size, learning rate, and number of epochs, by modifying the script.
 
 ## Evaluation
 
 Evaluate the model's performance on the test dataset using the [evaluate.py](/evaluate.py) script. This will generate various evaluation metrics and visualize the model's predictions.
 
-## Results
-
-The model's performance on the test dataset is outlined in the [results.md](/results.md) file. It includes information on accuracy, precision, recall, and F1-score, along with sample predictions.
 
 ## Contributing
 
@@ -77,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE](/LICENSE) fil
 
 ---
 
-By [Your Name](https://github.com/yourusername)
+By [Ali](https://github.com/DevAli00)
