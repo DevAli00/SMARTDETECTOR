@@ -48,9 +48,6 @@ To set up the development environment for training and evaluation, follow these 
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Download the dataset and place it in the [Dataset](https://data.mendeley.com/datasets/tbrnp6vrnj/1) directory.
 
-## Training
-
-To train the deep learning model, run the [train.py](/model.py) script. You can customize the training parameters, such as batch size, learning rate, and number of epochs, by modifying the script.
 
 ## Evaluation
 
