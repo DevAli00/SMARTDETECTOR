@@ -28,7 +28,7 @@ The dataset used to train and validate the model consists of audio recordings ca
 
 ## Model Architecture
 
-The deep learning model is based on a convolutional neural network (CNN) architecture, which has shown promising results in audio analysis tasks. The CNN model is trained on the audio spectrogram representations of the sound data. The detailed architecture and model hyperparameters can be found in the [model.py](/model.py) file.
+The deep learning model is based on a deep neural network (DNN) architecture, which has shown promising results in audio analysis tasks. The DNN model is trained on the audio spectrogram representations of the sound data. The detailed architecture and model hyperparameters can be found in the [model.py](/model.py) file.
 
 ## Usage
 
