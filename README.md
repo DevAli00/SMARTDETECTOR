@@ -9,6 +9,7 @@ This repository contains a deep learning model that can detect water leakage in 
 
 - [Background](#background)
 - [Dataset](#dataset)
+- [Data Preprocessing](#Data-Preprocessing)
 - [Model Architecture](#model-architecture)
 - [Usage](#usage)
 - [Installation](#installation)
@@ -24,6 +25,9 @@ Water leakage in urban water distribution systems is a significant problem leadi
 ## Dataset
 
 The dataset used to train and validate the model consists of audio recordings captured from different parts of the water distribution network. It includes both positive samples (audio segments with confirmed leaks) and negative samples (normal functioning audio segments). The [Dataset](https://data.mendeley.com/datasets/tbrnp6vrnj/1) can be found here.
+
+## Data Preprocessing
+
 
 ## Model Architecture
 
