@@ -5,7 +5,7 @@
 
 This repository contains a deep learning model that can detect water leakage in water distribution systems in cities by analyzing water sounds. The model uses audio data collected from various parts of the distribution network to identify potential leaks and alert maintenance teams for timely repair and prevention of water wastage.
 
-Fun Fact : A year later I found myself taking a signal processing course and understanding many of the elements here that I could not fully understand for the project.
+Fun Fact : A year later I found myself taking a signal processing course and understanding many of the elements here that I could not fully understand while doing the project.
 
 ## Table of Contents
 
