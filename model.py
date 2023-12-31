@@ -2,10 +2,8 @@ import json
 import numpy as np
 from sklearn.model_selection import train_test_split
 import tensorflow.keras as keras
-from sklearn.metrics import confusion_matrix
 from sklearn.utils.multiclass import unique_labels
 from sklearn.preprocessing import LabelEncoder
-import matplotlib.pyplot as plt
 import tensorflow as tf
 
 DATASET_PATH = "data.json"
