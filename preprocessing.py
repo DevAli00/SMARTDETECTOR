@@ -26,9 +26,9 @@ def save_mfcc(dataset_path, json_path, n_mfcc=13, n_fft=1024, hop_length=512, nu
         if directory_path != dataset_path:
 
             composants_chemin_répertoire = directory_path.split("/")
-            étiquette = composants_chemin_répertoire[-1]
-            data["mapping"].append(étiquette)
-            print("\nTraitement de {}".format(étiquette))
+            label = composants_chemin_répertoire[-1]
+            data["mapping"].append(label)
+            print("\nProcessing of {}".format(label))
 
             for file_name in files_name:
                 file_path = os.path.join(directory_path, file_name)
