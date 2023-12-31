@@ -28,6 +28,8 @@ The dataset used to train and validate the model consists of audio recordings ca
 
 ## Data Preprocessing
 
+The audio dataset is transformed to mathematical arrays representing MFCC(Mel Frequency Cepstrum Coefficients) and saved in the JSON file. The libraries numpy and librosa were used for this part. Here is the preprocessing python code [preprocessing.py](/preprocessing.py).
+
 
 ## Model Architecture
 
