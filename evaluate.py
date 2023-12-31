@@ -1,6 +1,8 @@
 from sklearn.metrics import confusion_matrix
 from sklearn.utils.multiclass import unique_labels
 from sklearn.preprocessing import LabelEncoder
+import matplotlib.pyplot as plt
+import numpy as np
 
 label_encoder = LabelEncoder()
 encoded_targets_test = label_encoder.fit_transform(targets_test)
@@ -12,7 +14,7 @@ cm = confusion_matrix(encoded_targets_test, np.argmax(model.predict(inputs_test)
 classes = label_encoder.classes_
 
 # Define a function to plot the confusion matrix
-def plot_confusion_matrix(cm, classes, title='Matrice de confusion'):
+def plot_confusion_matrix(cm, classes, title='Confusion Matrix'):
     plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
     plt.title(title)
     plt.colorbar()
@@ -28,8 +30,8 @@ def plot_confusion_matrix(cm, classes, title='Matrice de confusion'):
                      horizontalalignment="center",
                      color="white" if cm[i, j] > thresh else "black")
     
-    plt.ylabel('Données Réelles')
-    plt.xlabel('Données prédites')
+    plt.ylabel('Correct Values')
+    plt.xlabel('Predicted values')
     plt.tight_layout()
 
 # Plot the confusion matrix
