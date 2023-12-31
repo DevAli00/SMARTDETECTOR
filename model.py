@@ -26,8 +26,6 @@ model = keras.Sequential([
     #input layer
     keras.layers.Flatten(input_shape=(inputs.shape[1], inputs.shape[2])),
     
-   
-    
     #1st hidden layer
     keras.layers.Dense(512, activation="relu"),
 
